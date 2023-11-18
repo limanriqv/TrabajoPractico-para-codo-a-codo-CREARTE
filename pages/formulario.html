@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Formulario</title>
+       <link rel="stylesheet" href="../asset/css/formulario.css">
+       <link rel="shortcut icon" href="..asset/media/imagenes/imageninicial1.jpg">
+
+    </head>
+   
+    <body>
+      
+      <main class="contenedor">
+        <section class="formulario">
+
+          <div class="container">
+            <a href="../index.html">
+                <img class="imagenInicial1" src="../asset/media/imagenes/imageninicial1.jpg">
+            </a>
+          </div>
+
+          <div class="formSec">
+
+            <form action="https://sheetdb.io/api/v1/swbypo2ko8wyt" method="POST" id="sheetdb-form">
+                <h1>Hace tus consultas</h1>
+    
+                  <div class="form">
+                    <label for="name">Nombre y Apellido:</label>   
+                    <div id="error-name"></div>
+                    <input type="text" id="name" name="data[name]" class="claseFormulario" onkeyup="validate()"/>
+                  </div>
+    
+                  <div class="form">
+                    <label for="email">Email:</label>
+                    <div id="error-email"></div>
+                    <input type="email" id="email" name="data[email]" class="claseFormulario"  onkeyup="validate()"/>
+                  </div>
+    
+                  <div class="form">
+                    <label for="comentario">Mensajes:</label>
+                    <div id="error-comentario"></div>
+                    <textarea id="comentario" name="data[comentario]" rows="10" class="claseFormulario"  onkeyup="validate()"></textarea>
+                  </div>
+                
+                 
+                  <div class="enviar1">
+                    <button type="submit" id="submit" class="enviar">Enviar!</button>
+                  </div>
+    
+              </form>
+
+
+          </div>
+
+
+
+        </section>
+
+        
+      </main> 
+    
+ 
+      <script src="../asset/js/form.js"></script>
+    </body>
+</html>
