@@ -45,11 +45,11 @@ Funcionalidades: formulario de contacto.
 Link: https://sheetdb.io/
 Enlace a la API:  https://sheetdb.io/api/v1/swbypo2ko8wyt
 
-### 7. Enlaces a la página web:
-https://github.com/limanriqv/CrearTe-CodoAcodo23
+### 7. Enlaces a los archivos en github:
+https://github.com/limanriqv/TrabajoPractico-para-codo-a-codo-CREARTE
 
-
-https://limanriqv.github.io/CrearTe-CodoAcodo23/
+### 8. Enlaces a la página web:
+https://limanriqv.github.io/TrabajoPractico-para-codo-a-codo-CREARTE/
 
 
 Fecha de Entrega: 28 de octubre del 2023
